@@ -1,9 +1,9 @@
-package com.objogate.wl.android.driver;
+package com.lge.android.wl.driver;
 
 import org.hamcrest.Description;
 
 import com.jayway.android.robotium.solo.Solo;
-import com.objogate.wl.android.Selector;
+import com.lge.android.wl.Selector;
 
 public class ViewSelector<T> implements Selector<T> {
 

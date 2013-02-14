@@ -1,4 +1,4 @@
-package com.objogate.wl.android;
+package com.lge.android.wl;
 
 import com.objogate.wl.Probe;
 

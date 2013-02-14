@@ -1,4 +1,4 @@
-package com.objogate.wl.android.probe;
+package com.lge.android.wl.probe;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;

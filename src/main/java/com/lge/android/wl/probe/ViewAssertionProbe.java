@@ -1,10 +1,10 @@
-package com.objogate.wl.android.probe;
+package com.lge.android.wl.probe;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 
 import com.objogate.wl.Probe;
-import com.objogate.wl.android.Selector;
+import com.lge.android.wl.Selector;
 
 public class ViewAssertionProbe<T> implements Probe {
 

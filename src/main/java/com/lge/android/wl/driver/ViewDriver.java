@@ -1,4 +1,4 @@
-package com.objogate.wl.android.driver;
+package com.lge.android.wl.driver;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,15 +11,16 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.jayway.android.robotium.solo.Solo;
+import com.lge.android.wl.UIPollingProber;
+import com.lge.android.wl.matcher.ViewEnabledMatcher;
+import com.lge.android.wl.matcher.ViewForcusedMatcher;
+import com.lge.android.wl.matcher.ViewVisibleMatcher;
+import com.lge.android.wl.probe.ViewAssertionProbe;
+import com.lge.android.wl.probe.ViewPropertyAssertionProbe;
+import com.lge.android.wl.probe.ViewSetEnabledProbe;
 import com.objogate.wl.Probe;
 import com.objogate.wl.Query;
-import com.objogate.wl.android.UIPollingProber;
-import com.objogate.wl.android.matcher.ViewEnabledMatcher;
-import com.objogate.wl.android.matcher.ViewForcusedMatcher;
-import com.objogate.wl.android.matcher.ViewVisibleMatcher;
-import com.objogate.wl.android.probe.ViewAssertionProbe;
-import com.objogate.wl.android.probe.ViewPropertyAssertionProbe;
-import com.objogate.wl.android.probe.ViewSetEnabledProbe;
+
 
 public class ViewDriver<T extends View> extends AndroidDriver<T> {
 
